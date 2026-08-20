@@ -1,2 +1,4 @@
-# basic-frontend-exercises
-practical exercises from the basic web development course HTML + CSS + JavaScript.
+## basic-frontend-exercises
+
+>Practical exercises from the basic web development course HTML + CSS + JavaScript. 
+
