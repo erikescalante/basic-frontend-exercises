@@ -1,4 +1,4 @@
-## basic-frontend-exercises
+## Exercises for <em>Talento Tech Front-end JS</em> course 
 
->Practical exercises from the basic web development course HTML + CSS + JavaScript. 
+>Practical exercises for HTML + CSS + JavaScript. 
 
