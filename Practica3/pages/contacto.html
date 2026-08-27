@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="https://formspree.io/f/xbgjrbje" method="post" autocomplete="off">
+            <label>Nombre: <input type="text" name="name" required></label>
+            <label>E-mail: <input type="email" name="email" required></label>
+            <label>Genre: 
+            <select name="genre">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="bi">Bi</option>
+                <option value="other">Other/I prefer no to say</option>
+            </select>
+            </label>    
+            <label>Message: <textarea name="message"></textarea> <label>
+            <button type="submit" rows="0" cols="50">Send</button>
+        </form>
+
+        <table border="1">
+            <caption>User requests</caption>
+            <thead>
+                <tr>
+                    <th scope="col">name</th>
+                    <th scope="col">e-mail</th>
+                    <th scope="col">genre</th>
+                    <th scope="col">message</th>
+                    <th scope="col">message status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>khaled</td>
+                    <td>hkhaled@ejemplo.com</td>
+                    <td>male</td>
+                    <td>i like kites</td>
+                    <td>approved</td>
+                </tr>
+                <tr>
+                    <td>satoshi</td>
+                    <td>yagi.satoshi@ejemplo.com</td>
+                    <td>male</td>
+                    <td>i like coffee</td>
+                    <td>disapproved</td>
+                </tr>
+                <tr>
+                    <td>isaac</td>
+                    <td>asimov@ejemplo.com</td>
+                    <td>male</td>
+                    <td>i lake robots</td>
+                    <td>confirm</td>
+                </tr>
+                <tr>
+                    <td>alejandra</td>
+                    <td>alepizarnik@ejemplo.com</td>
+                    <td>female</td>
+                    <td>i like poetry</td>
+                    <td>disapproved</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer></footer>
+</body>
+</html>
