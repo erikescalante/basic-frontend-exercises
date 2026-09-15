@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+header {
+    background-color: yellow;
+    font-size: 16px;
+    margin: 20px;
+    padding: 200px;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    margin: 20px;
+    padding: 200px;
+}
