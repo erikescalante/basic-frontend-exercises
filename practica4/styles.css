@@ -1,20 +1,38 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: white;
+}
 header {
     background-color: yellow;
-    font-size: 16px;
-    margin: 20px;
-    padding: 200px;
+    font-size: 1.6rem;
+    border: 50px;
+    border-color: black;
+    padding: 1rem 3rem;
+    margin: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+main{
+    font-size: 1.6rem;
+    flex-wrap: 1;
+    padding: 1rem 3rem;
 }
 
 footer {
     background-color: red;
     color: white;
     font-size: 16px;
+    font-weight: bold;
     margin: 20px;
-    padding: 200px;
+    padding: 1rem 3rem;
 }
