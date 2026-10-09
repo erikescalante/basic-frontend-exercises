@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    font-family: sans-serif;
+    color: rgb(95, 15, 160);
+    background: #74ff8f;
+}
+
+h1 h2 h3 h4 h5 h6{
+    padding: 10px;
+}
+h1 {
+    font-size: 40px;
+    font-family: "Bitcount Ink"
+}
+
+header {
+
+}
+
+main {
+
+}
+footer {
+
+}
+
+.box {
+    width: 270px;
+    height: 200px;
+    border: 5px solid rgb(95, 15, 160);
+    padding: 2px;
+    margin: 10px auto;
+    background: coral;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.button {
+    border: 3px solid rgb(95, 15, 160);
+    width: 45%;
+    margin: 20px 5px 5px 5px;
+}
+
+.button-submit {
+    background: green;
+}
+
+.button-reset {
+    background: red;
+}
+
+.menu {
+    background: coral;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 15px;
+}
+
+.item {
+    padding: 20px;
+    margin: 10px;
+}
+
+nav {
+    margin: 5px;
+}
