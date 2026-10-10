@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 30px  100px 30px 100px;
+}
+
+.card {
+  width: 280px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  /* Agregamos una transición suave para que el efecto no sea brusco */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  /* Eleva un poco la tarjeta */
+  transform: translateY(-5px);
+  
+  /* Hace la sombra más pronunciada para dar sensación de profundidad */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  
+  /* Cambia el color del borde */
+  border-color: black;
+}
+
+.card > img {
+    border-radius: 10px;
+    height: 50%;
+    object-fit: cover;
+}
+
+.card:hover {
+    transition:all;
+}
+
+@media (max-width: 768px) {
+    .reviews {
+        grid-template-columns: 1fr;
+    }
+}
