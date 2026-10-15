@@ -1,6 +1,5 @@
 let name = prompt("Enter your name: ");
-let age = prompt("Enter your age: ");
-age = parseInt(age);
+let age = parseInt(prompt("Enter your age: "));
 
 if(isNaN(parseInt(age)) || age < 0) {
     console.log("invalid entry")
