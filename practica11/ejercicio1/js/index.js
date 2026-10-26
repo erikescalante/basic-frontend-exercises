@@ -1,6 +1,6 @@
-import { suma, resta, multiplicacion, division } from "./calculadora.js";
+import { calculadora } from "./calculadora.js";
 
-console.log(suma(1, 2));
-console.log(resta(1, 2));
-console.log(multiplicacion(1, 2));
-console.log(division(1,2));
+console.log("suma: " + calculadora(1, 2, "suma"));
+console.log("resta: " + calculadora(1, 2, "resta"));
+console.log("multiplicación: " + calculadora(1, 2, "multiplicacion"));
+console.log("división: " + calculadora(1, 2, "division"));
