@@ -65,5 +65,13 @@ for(const product of products) {
     productImage.src = product.img;
     productCard.appendChild(productImage);
 
+    let button = document.createElement("button");
+    button.textContent = "Show Description";
+    button.addEventListener("click", () => {
+        alert(`no se mostrará ninguna desc`);
+    });
+
+    productCard.appendChild(button);
+
     container.appendChild(productCard);
 }
